@@ -11,14 +11,14 @@
             <result property="businessExplain" column="businessExplain" jdbcType="VARCHAR"/>
             <result property="businessImg" column="businessImg" jdbcType="VARCHAR"/>
             <result property="orderTypeId" column="orderTypeId" jdbcType="INTEGER"/>
-            <result property=" starPrice" column=" starPrice" jdbcType="DECIMAL"/>
-            <result property=" deliveryPrice" column=" deliveryPrice" jdbcType="DECIMAL"/>
-            <result property=" remarks" column=" remarks" jdbcType="VARCHAR"/>
+            <result property="starPrice" column="starPrice" jdbcType="DECIMAL"/>
+            <result property="deliveryPrice" column="deliveryPrice" jdbcType="DECIMAL"/>
+            <result property="remarks" column="remarks" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
         businessId,businessName,businessAddress,
         businessExplain,businessImg,orderTypeId,
-         starPrice, deliveryPrice, remarks
+        starPrice,deliveryPrice,remarks
     </sql>
 </mapper>
